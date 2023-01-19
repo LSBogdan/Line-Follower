@@ -22,8 +22,10 @@ To achieve this we used PID, is a control loop mechanism employing feedback that
 </ul>  
 
 
-## Picture
-![Project](assets/Setup.jpeg)
+## Pictures
+![Project](assets/LineFollowerPhoto1.jpeg)
+![Project](assets/LineFollowerPhoto2.jpeg)
+
 
 ## Video 
-https://youtu.be/dYF81aN-I0Q
+https://youtu.be/bK9JmgAIRBg
