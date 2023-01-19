@@ -5,7 +5,7 @@ Assemble a line follower robot and write the code for it so that it can do any r
 To achieve this we used PID, is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control.
 
 ### Parameters
-- We map the error from sensors to [-30, 30] interval and apply PID with kp = 11, ki = 0, kd = 1, p = 1, i = 0, d = 0.
+- We map the error from sensors to [-30, 30] interval and apply PID with kp = 11, ki = 0, kd = 1.
  
 ### Used components
 <ul>
