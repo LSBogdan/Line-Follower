@@ -47,10 +47,11 @@ Assemble a line follower robot and program it to navigate any route in the short
 - **Collaboration:** I teamed up with [Mihai Birsan](https://github.com/mihaibirsan28/Line-follower---IntroductionToRobotics) for this project.
 
 
-## Visuals 📸
-![Project](assets/LineFollowerPhoto1.jpeg)  
-![Project](assets/LineFollowerPhoto2.jpeg)
+## Visuals
+- **Project Setup Image 📸**  
+  ![Project](assets/LineFollowerPhoto1.jpeg)  
+  ![Project](assets/LineFollowerPhoto2.jpeg)
 
 
-## Video 🎥
-[Watch the Line Follower in Action](https://youtu.be/bK9JmgAIRBg)
+- **Video 🎥**  
+  [Watch the Line Follower in Action](https://youtu.be/bK9JmgAIRBg)
