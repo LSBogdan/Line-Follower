@@ -1,49 +1,56 @@
-# Line-follower---IntroductionToRobotics 2023
+# 🚗 **Line Follower Robot** 🤖 — *IntroductionToRobotics 2023* 
+
+## Description 🌟
+Assemble a line follower robot and program it to navigate any route in the shortest possible time while staying perfectly on track. The robot is designed to follow the line, execute precise turns, and avoid veering off course. We achieved this precision using a **PID control loop**—a robust feedback mechanism widely used in industrial systems and various continuously modulated applications. 🔄🛠️
 
 
-#### Description
-Assemble a line follower robot and write the code for it so that it can do any route in the shortest possible time and in the correct way (that is, to keep the line it is on, to be able to turn correctly without entering other lanes, etc. ).
-To achieve this we used PID, is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control.
- 
-
-### Used components
-<ul>
-  <li> Arduino Uno
-  <li> Zip-ties
-  <li> Power source (can be of different shape). In our case, a LiPo battery
-  <li> Wheels (2)
-  <li> Wires for the line sensor (female - male)
-  <li> QTR-8A reflectance sensor, along with screws
-  <li> Ball caster
-  <li> Extra wires from the kit or lab
-  <li> Chassis
-  <li> Breadboard - medium (400pts)
-  <li> L293D motor driver
-  <li> DC motors (2)
-</ul>  
+## Used Components 🛠️🔧
+- **Arduino Uno** 🎛️
+- **Zip-ties** 🧷
+- **Power Source:** (Our choice: LiPo battery) 🔋
+- **Wheels (2)** ⚙️
+- **Wires for the line sensor:** (female-male) 🔌
+- **QTR-8A Reflectance Sensor** with screws 🧲
+- **Ball Caster** 🎡
+- **Extra Wires** from the kit or lab 🪢
+- **Chassis** 🚙
+- **Breadboard (medium, 400pts)** ⚡
+- **L293D Motor Driver** 🚦
+- **DC Motors (2)** ⚡
 
 
-### Parameters
-- We did an automatic calibration of 10 seconds using the alternative start of the engines and after that we repositioned the line follower on the line.
-- We map the error from sensors to [-30, 30] interval and apply PID with kp = 11, ki = 0, kd = 1, p = 1, i = 0, d = 0 (we tried a lot of configuration until we get the best one which is the one that we used).
+## Parameters 📏🔍
+- **Automatic Calibration:**  
+  A 10-second calibration routine is performed using an alternative engine start mechanism, after which the robot is repositioned onto the line. ⏱️
+- **PID Tuning:**  
+  - Sensor error is mapped to the interval **[-30, 30]**.  
+  - PID parameters:  
+    - `kp = 11`  
+    - `ki = 0`  
+    - `kd = 1`  
+    - `p = 1`, `i = 0`, `d = 0`  
+  *(We experimented with several configurations to achieve the best performance.)* 🎛️🔧
 
 
-### Context and details
-- We received the line follower kit.
-- We assembled it.
-- We programmed it to complete the course as fast as possible.
+## Context and Details 📝
+- **Kit Received:** Yes!  
+- **Assembly:** We carefully assembled the line follower kit. 🔩  
+- **Programming:** The robot was programmed to complete the course as fast and accurately as possible. 💻🏁
 
 
-### Results
-- The best time that out line follower get was 23.262s.
+## Results 🏆
+- **Best Time Achieved:** **23.262 seconds** ⏱️🥇
 
-### Our team name: Team Oltenia
-### I teamed up with <a href= "https://github.com/mihaibirsan28/Line-follower---IntroductionToRobotics">Mihai Birsan</a> 
 
-## Pictures
-![Project](assets/LineFollowerPhoto1.jpeg)
+## Team & Collaboration 🤝
+- **Our Team Name:** **Team Oltenia** 🌟  
+- **Collaboration:** I teamed up with [Mihai Birsan](https://github.com/mihaibirsan28/Line-follower---IntroductionToRobotics) for this project.
+
+
+## Visuals 📸
+![Project](assets/LineFollowerPhoto1.jpeg)  
 ![Project](assets/LineFollowerPhoto2.jpeg)
 
 
-## Video 
-https://youtu.be/bK9JmgAIRBg
+## Video 🎥
+[Watch the Line Follower in Action](https://youtu.be/bK9JmgAIRBg)
